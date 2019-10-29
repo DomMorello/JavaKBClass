@@ -36,12 +36,12 @@ public class Car {
 	
 	public void addWheel(Wheel wheel) {
 		if(capacity == wheels.length) {	//배열에 꽉 차 있으면 추가 못함
-			System.out.println("\t>>공간부족! "+wheel.name+"을 추가하지 못했습니다.");
+			System.out.println("\t>>공간부족! "+wheel+"을 추가하지 못했습니다.");
 		}else {
 			for(int i=0; i < wheels.length; i++) {	
 				if(wheels[i] == null) {	//비어있는 곳에만 추가
 					wheels[i] = wheel;
-					System.out.println("["+i+"]"+wheel.name+"을(를) 재고에 추가했습니다.");
+					System.out.println("["+i+"]"+wheel+"을(를) 재고에 추가했습니다.");
 					capacity++;
 					break;
 				}//if끝
