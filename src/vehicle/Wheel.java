@@ -11,7 +11,6 @@ public class Wheel {
 	int size; //Å©±â
 	
 	public Wheel(String name, int size) {
-		super();
 		this.name = name;
 		this.size = size;
 	}
