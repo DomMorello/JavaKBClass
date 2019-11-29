@@ -29,7 +29,7 @@ public class ProductMain3 {
 		int index = 0;	//해당 위치를 찾기 위한 변수
 		int max = list.get(0).getUnitPrice();
 		//list 요소를 전부 비교하여 젤 비싼 객체를 선정
-		for(int i=1; i < list.size(); i++) {
+		for(int i=1; i < list.size(); i++) { 
 			if(max < list.get(i).getUnitPrice() ) {
 				max = list.get(i).getUnitPrice();
 				index = i;

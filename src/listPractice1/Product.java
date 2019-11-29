@@ -16,7 +16,7 @@ public class Product {
 
 	private int number;
 	private String name; // 모델명
-	private int unitPrice; // 단가
+	private int unitPrice; // 단가 
 	private int count; // 보유개수
 	private String type;
 

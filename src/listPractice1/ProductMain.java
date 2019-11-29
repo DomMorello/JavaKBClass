@@ -32,7 +32,7 @@ public class ProductMain {
 	}
 
 	public static double getAveragePrice(ArrayList<Product> prList) {
-		double average = 0.0;
+		double average = 0.0; 
 		int sum = 0;
 		if (prList != null) {
 			for (int i = 0; i < prList.size(); i++) {

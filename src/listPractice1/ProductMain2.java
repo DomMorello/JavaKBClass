@@ -25,7 +25,7 @@ public class ProductMain2 {
 	public static void getAvgUnitPricePerTypeFromList(ArrayList<Product> list) {
 		int countScooter = 0;
 		int countClassic = 0;
-		int countSports = 0; // 종류별 개수 합계
+		int countSports = 0; // 종류별 개수 합계 
 		int sumScooter = 0;
 		int sumClassic = 0;
 		int sumSports = 0; // 종류별 가격 합계
