@@ -15,12 +15,12 @@ public class ProductMain3 {
 
 		ArrayList<Product> prList = new ArrayList<>();
 		System.out.println("등록할 제품 정보를 입력하시오.");
-		inputNewProductToList(prList);
-		getAvgUnitPricePerTypeFromList(prList);
-		Product highest = getHighPriceProductFromList(prList);
+		inputNewProductToList(prList);	//Product를 list에 추가
+		getAvgUnitPricePerTypeFromList(prList);	//종류별 평균 단가 출력
+		Product highest = getHighPriceProductFromList(prList);	//최고가 반환
 		System.out.println("최고가 상품: "+highest.getName()+"\t"+highest.getType()+"\t"+highest.getUnitPrice());
 		getLowPriceProductFromList(prList);
-		Product lowest = getLowPriceProductFromList(prList);
+		Product lowest = getLowPriceProductFromList(prList);	//최저가 반환
 		System.out.println("최저가 상품: "+lowest.getName()+"\t"+lowest.getType()+"\t"+lowest.getUnitPrice());
 	}
 	
